@@ -7,7 +7,7 @@ using namespace std;
 string permutation(string str, int* arr, int n) 
 { 
 	string res = ""; 
-	for (int i = 0; i < n; i++) { 
+	for (int i = 0; i < n; i++) {  
 		res += str[arr[i] - 1]; 
 	} 
 	return res; 

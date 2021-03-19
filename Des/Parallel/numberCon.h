@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include <string.h>
 #define numberConversions
-std::string str2bin(std::string s)  
+std::string str2bin(std::string s)   
 { 
 	std::string binary;
 	for(int i=0;i<s.length();i++){
